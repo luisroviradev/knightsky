@@ -1,13 +1,13 @@
 /// @description Initialize camera
 
 //movement
-velocity = vector_create(0, 0);
-position = vector_create(x, y);
-offset = vector_create(-room_width/2, -room_height/2)
+velocity = Vec2Create(0, 0);
+position = Vec2Create(x, y);
+offset = Vec2Create(-room_width/2, -room_height/2)
+
+//show_debug_message(position.to_string());
 
 //targetting
-target_position_1 = vector_create(0, 0);
-target_position_2 = vector_create(0, 0);
 inter = .35;
 speed_val = .25;
 //distance_limit = 260;

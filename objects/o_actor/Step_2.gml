@@ -1,5 +1,4 @@
 /// @description Update actor
-
 var _dt = get_dt();
 
 var _v_pos = camera_get_position();
@@ -8,22 +7,20 @@ var _v_pos = camera_get_position();
 if(collides_with > 0){
 	#region complex movement code for actors that have collisions
 	ds_list_clear(collision_list); //empty collision list
-	var _temp_vel = vector_scale(velocity, _dt);
-	var _normal = vector_normal(_temp_vel);
-	var _m = vector_get_magnitude(_temp_vel);
-	var _remainder = vector_scale(_normal, _m - floor(_m));
+	var _temp_vel = velocity.copy().scale(_dt);
+	var _normal = _temp_vel.copy().normalize();
+	var _m = _temp_vel.get_magnitude();
+	var _remainder = _normal.copy().scale(_m - floor(_m));
 	for(var _d = 0; _d <= floor(_m); _d++){
 		//incremental movement
 		if(_d == floor(_m)){
-			position[X] += _remainder[X];
-			position[Y] += _remainder[Y];
+			position.add(_remainder);
 		}else{
-			position[X] += _normal[X];
-			position[Y] += _normal[Y];
+			position.add(_normal);
 		}
 		#region collisions
 		var _l = ds_list_create();
-		var _s = instance_place_list(position[X] + _v_pos[X], position[Y] + _v_pos[Y], o_actor, _l, true);
+		var _s = instance_place_list(position.x + _v_pos.x, position.y + _v_pos.y, o_actor, _l, true);
 		for(var _i = 0; _i < _s; _i++){
 			//if the instance is not in the collision list already
 			var _inst = _l[| _i];
@@ -35,16 +32,22 @@ if(collides_with > 0){
 		ds_list_destroy(_l);
 		#endregion
 	}
+	delete _temp_vel;
+	delete _normal;
+	delete _remainder;
 	#endregion
-}else{
+}
+else{
 	//simple movement code
-	var _temp_vel = vector_scale(velocity, _dt);
-	position[X] += _temp_vel[X];
-	position[Y] += _temp_vel[Y];
+	var _temp_vel = velocity.copy().scale(_dt);
+	position.add(_temp_vel);
+	delete _temp_vel;
 }
 
-x = position[X] - _v_pos[X];
-y = position[Y] - _v_pos[Y];
+x = position.x - _v_pos.x;
+y = position.y - _v_pos.y;
+
+delete _v_pos;
 
 //audio emitter code
 if(has_audio){

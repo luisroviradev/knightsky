@@ -1,7 +1,5 @@
 ///@func camera_get_position()
 ///@arg 
 function camera_get_position() {
-	return o_camera.position;
-
-
+	return Vec2Create(o_camera.position.x, o_camera.position.y);
 }

@@ -1,9 +1,10 @@
 /// @description initalize a particle
 
 var _v_pos = camera_get_position();
-position = vector_create(x, y);
-x = position[X] - _v_pos[X];
-y = position[Y] - _v_pos[Y];
+position = Vec2Create(x, y);
+x = position.x - _v_pos.y;
+y = position.x - _v_pos.y;
+delete _v_pos;
 
 life = random_range(life_min, life_max);
 rotation = random_range(rotation_min, rotation_max);

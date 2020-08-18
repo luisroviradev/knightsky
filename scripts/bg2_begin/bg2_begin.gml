@@ -5,8 +5,9 @@ function bg2_begin() {
 
 	var _time = o_controller_delta.in_game_time;
 	var _v_pos = camera_get_position();
-	var _x = -_v_pos[X];
-	var _y = -_v_pos[Y];
+	var _x = -_v_pos.x;
+	var _y = -_v_pos.y;
+	delete _v_pos;
 
 	shader_set_uniform_f(o_controller_draw.neb_u_time, _time);
 	shader_set_uniform_f(o_controller_draw.neb_u_pos, _x * .33, _y * .33);

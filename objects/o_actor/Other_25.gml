@@ -5,3 +5,6 @@ if(collides_with > 0){
 if(has_audio){
 	audio_emitter_free(audio_emitter);
 }
+
+delete position;
+delete velocity;

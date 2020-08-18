@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Maths/Vectors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "vector_get_magnitude",
+  "name": "Vectors",
   "tags": [],
   "resourceType": "GMScript",
 }
