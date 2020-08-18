@@ -148,7 +148,7 @@
   ],
   "parent": {
     "name": "Test",
-    "path": "folders/Sprites/Misc/Test.yy",
+    "path": "folders/Game Entities/Test.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_test_part",

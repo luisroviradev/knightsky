@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Background",
-    "path": "folders/Scripts/Drawing/Background.yy",
+    "name": "BG Layer Scripts",
+    "path": "folders/Control/Drawing/BG Layer Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "bg_end",

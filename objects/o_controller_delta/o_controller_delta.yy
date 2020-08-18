@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Delta timing",
+    "path": "folders/Control/Delta timing.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_controller_delta",

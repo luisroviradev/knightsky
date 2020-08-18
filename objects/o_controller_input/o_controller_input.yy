@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Input",
+    "path": "folders/Control/Input.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_controller_input",

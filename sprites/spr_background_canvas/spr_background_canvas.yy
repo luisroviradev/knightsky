@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2971bb6b-e519-4045-bc69-475f9e587a49","path":"sprites/spr_a_square/spr_a_square.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2971bb6b-e519-4045-bc69-475f9e587a49","path":"sprites/spr_a_square/spr_a_square.yy",},"LayerId":{"name":"74af994d-2650-4c12-9eb0-ddf95ce57a33","path":"sprites/spr_a_square/spr_a_square.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_a_square","path":"sprites/spr_a_square/spr_a_square.yy",},"resourceVersion":"1.0","name":"2971bb6b-e519-4045-bc69-475f9e587a49","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2971bb6b-e519-4045-bc69-475f9e587a49","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2971bb6b-e519-4045-bc69-475f9e587a49","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},"LayerId":{"name":"74af994d-2650-4c12-9eb0-ddf95ce57a33","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_background_canvas","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},"resourceVersion":"1.0","name":"2971bb6b-e519-4045-bc69-475f9e587a49","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_a_square","path":"sprites/spr_a_square/spr_a_square.yy",},
+    "spriteId": {"name":"spr_background_canvas","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"20a62aa8-6580-4d7d-983d-b56e9e36bbca","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2971bb6b-e519-4045-bc69-475f9e587a49","path":"sprites/spr_a_square/spr_a_square.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"20a62aa8-6580-4d7d-983d-b56e9e36bbca","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2971bb6b-e519-4045-bc69-475f9e587a49","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": {"x":0.0,"y":0.0,},
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_a_square","path":"sprites/spr_a_square/spr_a_square.yy",},
+    "parent": {"name":"spr_background_canvas","path":"sprites/spr_background_canvas/spr_background_canvas.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_background_canvas",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -68,11 +68,11 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"74af994d-2650-4c12-9eb0-ddf95ce57a33","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Misc",
-    "path": "folders/Sprites/Misc.yy",
+    "name": "Drawing",
+    "path": "folders/Control/Drawing.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_a_square",
+  "name": "spr_background_canvas",
   "tags": [],
   "resourceType": "GMSprite",
 }

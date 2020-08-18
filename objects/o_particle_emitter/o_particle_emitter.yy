@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Particle System",
-    "path": "folders/Objects/Parents/Particle System.yy",
+    "path": "folders/Parent Entities/Particle System.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_particle_emitter",

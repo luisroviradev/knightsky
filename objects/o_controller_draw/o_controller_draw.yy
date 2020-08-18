@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Drawing",
+    "path": "folders/Control/Drawing.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_controller_draw",

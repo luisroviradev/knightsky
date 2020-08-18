@@ -36,7 +36,7 @@
   ],
   "parent": {
     "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "path": "folders/Game Entities/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_player",

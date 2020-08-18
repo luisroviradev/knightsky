@@ -12,15 +12,15 @@ neb_u_scale = shader_get_uniform(sh_background, "u_scale");
 
 layer_script_begin(LAYER_BG1, bg1_begin);
 layer_script_end(LAYER_BG1, bg_end);
-layer_background_sprite(layer_background_get_id(layer_get_id(LAYER_BG1)), spr_a_square);
+layer_background_sprite(layer_background_get_id(layer_get_id(LAYER_BG1)), spr_background_canvas);
 
 layer_script_begin(LAYER_BG2, bg2_begin);
 layer_script_end(LAYER_BG2, bg_end);
-layer_background_sprite(layer_background_get_id(layer_get_id(LAYER_BG2)), spr_a_square);
+layer_background_sprite(layer_background_get_id(layer_get_id(LAYER_BG2)), spr_background_canvas);
 
 layer_script_begin(LAYER_BG3, bg3_begin);
 layer_script_end(LAYER_BG3, bg_end);
-layer_background_sprite(layer_background_get_id(layer_get_id(LAYER_BG3)), spr_a_square);
+layer_background_sprite(layer_background_get_id(layer_get_id(LAYER_BG3)), spr_background_canvas);
 
 #endregion
 

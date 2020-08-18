@@ -147,8 +147,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"75169cc4-3360-4e81-984b-c273fb7552a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Drawing",
+    "path": "folders/Control/Drawing.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_color_palette",

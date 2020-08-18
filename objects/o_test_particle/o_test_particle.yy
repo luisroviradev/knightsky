@@ -40,7 +40,7 @@
   ],
   "parent": {
     "name": "Test",
-    "path": "folders/Objects/Test.yy",
+    "path": "folders/Game Entities/Test.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_test_particle",

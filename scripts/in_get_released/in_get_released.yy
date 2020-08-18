@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Input",
-    "path": "folders/Scripts/Control/Input.yy",
+    "path": "folders/Control/Input.yy",
   },
   "resourceVersion": "1.0",
   "name": "in_get_released",

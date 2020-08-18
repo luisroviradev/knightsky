@@ -104,7 +104,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"b628e8f6-ff97-4d9a-9dc4-af551c68cc1b","path":"sprites/spr_player/spr_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b628e8f6-ff97-4d9a-9dc4-af551c68cc1b","path":"sprites/spr_player/spr_player.yy",},"LayerId":{"name":"238bb3f1-afc8-44b4-b4ea-1e61abc721a6","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b628e8f6-ff97-4d9a-9dc4-af551c68cc1b","path":"sprites/spr_player/spr_player.yy",},"LayerId":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"b628e8f6-ff97-4d9a-9dc4-af551c68cc1b","path":"sprites/spr_player/spr_player.yy",},"LayerId":{"name":"efb7452e-471b-48ba-92b3-1dde5b993903","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","name":"b628e8f6-ff97-4d9a-9dc4-af551c68cc1b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
@@ -149,7 +149,7 @@
   ],
   "parent": {
     "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "path": "folders/Game Entities/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player",
