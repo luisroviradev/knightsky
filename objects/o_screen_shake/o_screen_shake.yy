@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "FX",
-    "path": "folders/Game Entities/FX.yy",
+    "name": "Shake",
+    "path": "folders/Game Entities/FX/Shake.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_screen_shake",

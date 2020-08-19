@@ -87,6 +87,13 @@ function set_velocity(_v){
 	velocity.set_from_vec(_v);
 }
 
+///@func set_velocity_xy
+///@arg x
+///@arg y
+function set_velocity_xy(_x, _y){
+	velocity.set(_x, _y);
+}
+
 ///@func set_position
 ///@arg x
 ///@arg y
