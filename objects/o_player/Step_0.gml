@@ -10,6 +10,8 @@ image_angle = wrap(image_angle, 0, 360);
 //accelerate
 if(in_get_pressed(KEYBIND.ACCELERATE)){
 	impulse(impulse_force, image_angle);
+	flash(position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), 40);
+	screen_shake(5, 15);
 }
 if(in_get_held(KEYBIND.ACCELERATE)){
 	accelerate(acceleration, image_angle);
