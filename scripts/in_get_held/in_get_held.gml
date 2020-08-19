@@ -1,7 +1,5 @@
 ///@func in_get_held(key)
-function in_get_held() {
-	//@arg key
-	return in_get_state(argument[0]) == KEYSTATE.HELD;
-
-
+///@arg key
+function in_get_held(_key) {
+	return in_get_state(_key) == KEYSTATE.HELD;
 }

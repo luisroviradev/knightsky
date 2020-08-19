@@ -1,7 +1,5 @@
 ///@func in_get_released(key)
-function in_get_released() {
-	//@arg key
-	return in_get_state(argument[0]) == KEYSTATE.RELEASED;
-
-
+///@arg key
+function in_get_released(_key) {
+	return in_get_state(_key) == KEYSTATE.RELEASED;
 }

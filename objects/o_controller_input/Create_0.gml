@@ -16,7 +16,7 @@ enum KEYBIND{
 }
 
 bindings = array_create(5);
-num_bindings = array_length_1d(bindings);
+num_bindings = array_length(bindings);
 
 bindings[KEYBIND.SELECT] = [mb_left, true, KEYSTATE.NONE];
 bindings[KEYBIND.ACCELERATE] = [ord("W"), false, KEYSTATE.NONE];

@@ -3,11 +3,7 @@
 ///@arg x
 ///@arg y
 ///@arg emitter
-function particle_create() {
-	var _p = argument[0];
-	var _x = argument[1];
-	var _y = argument[2];
-	var _e = argument[3];
+function particle_create(_p, _x, _y, _e) {
 	if(instance_exists(_e)){
 		var _l = _e.layer;
 		var _inst = instance_create_layer(_x, _y, _l, _p);
