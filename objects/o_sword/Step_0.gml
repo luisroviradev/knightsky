@@ -8,7 +8,7 @@ var _target_pos = Vec2Create(_x, _y).add(o_player.position);
 
 set_velocity_xy((_target_pos.x - position.x) * follow_speed, (_target_pos.y - position.y) * follow_speed);
 
-if(check_dt_sum()){
+repeat(get_dt_sum()){
 	ang_p = angle_facing;
 	xp = x;
 	yp = y;

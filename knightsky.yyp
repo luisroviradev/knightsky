@@ -23,6 +23,8 @@
     {"id":{"name":"in_get_none","path":"scripts/in_get_none/in_get_none.yy",},"order":1,},
     {"id":{"name":"spr_player_sword","path":"sprites/spr_player_sword/spr_player_sword.yy",},"order":3,},
     {"id":{"name":"in_get_pressed","path":"scripts/in_get_pressed/in_get_pressed.yy",},"order":2,},
+    {"id":{"name":"get_dt_sum","path":"scripts/get_dt_sum/get_dt_sum.yy",},"order":5,},
+    {"id":{"name":"Planning","path":"notes/Planning/Planning.yy",},"order":7,},
     {"id":{"name":"in_get_held","path":"scripts/in_get_held/in_get_held.yy",},"order":3,},
     {"id":{"name":"in_get_released","path":"scripts/in_get_released/in_get_released.yy",},"order":4,},
     {"id":{"name":"in_get_state","path":"scripts/in_get_state/in_get_state.yy",},"order":5,},
