@@ -105,4 +105,11 @@ function set_position(_x, _y){
 	delete _v_pos;
 }
 
+///@func damage
+///@arg damage
+function damage(_damage){
+	hp = max(0, hp - _damage);
+	return hp;
+}
+
 #endregion
