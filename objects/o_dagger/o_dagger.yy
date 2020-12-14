@@ -23,11 +23,16 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_dagger","path":"objects/o_dagger/o_dagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_dagger","path":"objects/o_dagger/o_dagger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"collision_group","path":"objects/o_actor/o_actor.yy",},"objectId":{"name":"o_actor","path":"objects/o_actor/o_actor.yy",},"value":"COLLISION_GROUP.PLAYER_PROJECTILE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"collides_with","path":"objects/o_actor/o_actor.yy",},"objectId":{"name":"o_actor","path":"objects/o_actor/o_actor.yy",},"value":"COLLISION_GROUP.ENEMY, COLLISION_GROUP.ENEMY_PROJECTILE","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"can_die","path":"objects/o_actor/o_actor.yy",},"objectId":{"name":"o_actor","path":"objects/o_actor/o_actor.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/o_actor/o_actor.yy",},"objectId":{"name":"o_actor","path":"objects/o_actor/o_actor.yy",},"value":"60","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Player",

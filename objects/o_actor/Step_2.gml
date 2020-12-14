@@ -51,7 +51,9 @@ delete _v_pos;
 
 //audio emitter code
 if(has_audio){
+	audio_emitter_pitch(audio_emitter, get_dt_mod());
 	audio_emitter_position(audio_emitter, x, y, 0);
+	audio_emitter_velocity(audio_emitter, velocity.x, velocity.y, 0);
 }
 
 //hp and destruction

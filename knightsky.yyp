@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"o_sword","path":"objects/o_sword/o_sword.yy",},"order":1,},
     {"id":{"name":"spr_color_palette","path":"sprites/spr_color_palette/spr_color_palette.yy",},"order":0,},
+    {"id":{"name":"snd_nyoom_sound","path":"sounds/snd_nyoom_sound/snd_nyoom_sound.yy",},"order":1,},
     {"id":{"name":"spr_player_thrust_particle","path":"sprites/spr_player_thrust_particle/spr_player_thrust_particle.yy",},"order":1,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"o_flash","path":"objects/o_flash/o_flash.yy",},"order":0,},
@@ -9,6 +10,7 @@
     {"id":{"name":"spr_test_part","path":"sprites/spr_test_part/spr_test_part.yy",},"order":1,},
     {"id":{"name":"__macros_layer__","path":"scripts/__macros_layer__/__macros_layer__.yy",},"order":0,},
     {"id":{"name":"spr_sword_trail","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"order":4,},
+    {"id":{"name":"snd_vroom_sound","path":"sounds/snd_vroom_sound/snd_vroom_sound.yy",},"order":0,},
     {"id":{"name":"__macros_maths__","path":"scripts/__macros_maths__/__macros_maths__.yy",},"order":1,},
     {"id":{"name":"spr_player_thrust_particle2","path":"sprites/spr_player_thrust_particle2/spr_player_thrust_particle2.yy",},"order":2,},
     {"id":{"name":"__macros_actors__","path":"scripts/__macros_actors__/__macros_actors__.yy",},"order":2,},
@@ -49,6 +51,7 @@
     {"id":{"name":"o_controller_master","path":"objects/o_controller_master/o_controller_master.yy",},"order":0,},
     {"id":{"name":"spr_flash","path":"sprites/spr_flash/spr_flash.yy",},"order":1,},
     {"id":{"name":"o_controller_delta","path":"objects/o_controller_delta/o_controller_delta.yy",},"order":0,},
+    {"id":{"name":"get_dt_mod","path":"scripts/get_dt_mod/get_dt_mod.yy",},"order":6,},
     {"id":{"name":"o_controller_input","path":"objects/o_controller_input/o_controller_input.yy",},"order":0,},
     {"id":{"name":"flash","path":"scripts/flash/flash.yy",},"order":2,},
     {"id":{"name":"o_controller_draw","path":"objects/o_controller_draw/o_controller_draw.yy",},"order":0,},
@@ -73,8 +76,8 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"r_main","path":"rooms/r_main/r_main.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"r_main","path":"rooms/r_main/r_main.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Autonomous Scripts.yy","order":3,"resourceVersion":"1.0","name":"Autonomous Scripts","tags":[],"resourceType":"GMFolder",},
@@ -102,18 +105,19 @@
     {"folderPath":"folders/Game Entities/FX/Flash.yy","order":1,"resourceVersion":"1.0","name":"Flash","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Game Entities/FX/Shake.yy","order":0,"resourceVersion":"1.0","name":"Shake","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Game Entities/Player/Sprites.yy","order":4,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Game Entities/Player/Player Sounds.yy","order":5,"resourceVersion":"1.0","name":"Player Sounds","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.1.536",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "knightsky",
   "tags": [],
   "resourceType": "GMProject",

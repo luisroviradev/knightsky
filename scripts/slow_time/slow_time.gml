@@ -1,9 +1,7 @@
 ///@func slow_time(modifier, steps)
 ///@arg modifier
 ///@arg steps
-function slow_time() {
-	var _mod = argument[0];
-	var _steps = argument[1];
+function slow_time(_mod, _steps) {
 	with(o_controller_delta){
 		dt_mod *= _mod;
 		dt_mod_set = dt_mod;
