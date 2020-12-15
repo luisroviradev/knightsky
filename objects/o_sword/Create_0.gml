@@ -17,3 +17,6 @@ explode_at_y = 0;
 
 image_xscale = .3;
 image_yscale = .3;
+
+//sound
+//swish_sound = audio_play_sound_on(audio_emitter, snd_swish_sound, true, 100);

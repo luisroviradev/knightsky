@@ -13,6 +13,7 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 	dagger_timer += dagger_timer_time;
 	var _x = position.x + lengthdir_x(10, image_angle);
 	var _y = position.y + lengthdir_y(10, image_angle);
+	screen_shake(3, 7);
 	impulse(dagger_recoil, image_angle - 180);
 	repeat(3){
 		var _inst = instance_create_layer(_x, _y, LAYER_PLAYER, o_dagger);
