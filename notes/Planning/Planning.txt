@@ -1,5 +1,4 @@
 Shooting needs to look cool because right now it does not look cool. (look at previous prototype)
-Woolly rhino...
 Fix the pitch not shifting issue with audio emitters.
 Make Explosions.
 Implement sounds for the shooting.

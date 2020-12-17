@@ -26,8 +26,7 @@ if(in_get_pressed(KEYBIND.ACCELERATE)){
 	impulse(impulse_force, image_angle);
 	flash(position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), 40);
 	screen_shake(5, 15);
-	var _s = audio_play_sound_on(audio_emitter, snd_vroom_sound, false, 100);
-	audio_sound_pitch(_s, random_range(.80, 1.20));
+	SoundInstanceCreate(snd_vroom_sound, audio_emitter, random_range(.8, 1.2), false, 100);
 }
 //during acceleration
 if(in_get_held(KEYBIND.ACCELERATE)){
@@ -36,17 +35,18 @@ if(in_get_held(KEYBIND.ACCELERATE)){
 		particle_create(o_player_thrust_particle, position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), emit);
 		particle_create(o_player_thrust_particle2, position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), emit);
 	}
+	
 }
 
 //moving sound
 if(in_get_pressed(KEYBIND.ACCELERATE)){
-	nyoom_sound = audio_play_sound_on(audio_emitter, snd_nyoom_sound, true, 100);
+	nyoom_sound = SoundInstanceCreate(snd_nyoom_sound, audio_emitter, 1, true, 100);
 }
 if(in_get_held(KEYBIND.ACCELERATE)){
-	audio_sound_pitch(nyoom_sound, velocity.get_magnitude()/8);
+	nyoom_sound.update_pitch(velocity.get_magnitude()/8);
 }
 if(in_get_released(KEYBIND.ACCELERATE)){
-	audio_stop_sound(nyoom_sound);
+	nyoom_sound.stop_sound();
 }
 
 //deceleration

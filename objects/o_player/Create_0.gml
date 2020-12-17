@@ -24,4 +24,6 @@ dagger_timer = 0;
 dagger_recoil = 5;
 
 //sounds
+//vroom_sound = noone;
 nyoom_sound = noone;
+

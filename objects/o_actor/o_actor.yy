@@ -100,8 +100,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Parent Entities",
-    "path": "folders/Parent Entities.yy",
+    "name": "Actor",
+    "path": "folders/Parent Entities/Actor.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_actor",
