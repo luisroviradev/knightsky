@@ -44,6 +44,7 @@ if(collides_with > 0){
 audio_emitter = noone;
 if(has_audio){
 	audio_emitter = audio_emitter_create();
+	audio_emitter_falloff(audio_emitter, 100, 300, 1);
 }
 #endregion
 

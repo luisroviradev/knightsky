@@ -13,7 +13,7 @@ repeat(get_dt_sum()){
 	xp = x;
 	yp = y;
 	//sound
-	//audio_emitter_pitch(audio_emitter, velocity.get_magnitude() / 5);
+	swish_sound.update_pitch(velocity.get_magnitude()/5 + .75);
 }
 
 //math
