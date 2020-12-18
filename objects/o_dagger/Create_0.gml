@@ -12,3 +12,5 @@ image_angle = _d - 45;
 var _scale = random_range(.2, .4);
 image_xscale = _scale;
 image_yscale = _scale;
+
+sprite_flash(3);

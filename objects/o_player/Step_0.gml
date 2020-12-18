@@ -15,6 +15,18 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 	var _y = position.y + lengthdir_y(10, image_angle);
 	screen_shake(3, 7);
 	impulse(dagger_recoil, image_angle - 180);
+	SoundInstanceCreate(snd_shoot, audio_emitter, random_range(.7, 1.3), false, 100);
+	sprite_flash(3);
+	
+	//muzzle flash particles
+	var _p1 = particle_create(o_muzzle_flash_particle, _x, _y, emit);
+	_p1.rotation = image_angle;
+	_p1.image_angle = image_angle;
+	var _p2 = particle_create(o_muzzle_flash_particle, _x, _y, emit);
+	_p2.rotation = image_angle - 90;
+	_p2.image_angle = image_angle - 90;
+	
+	//create daggers
 	repeat(3){
 		var _inst = instance_create_layer(_x, _y, LAYER_PLAYER, o_dagger);
 	}
