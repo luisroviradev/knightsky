@@ -19,10 +19,10 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 	sprite_flash(3);
 	
 	//muzzle flash particles
-	var _p1 = particle_create(o_muzzle_flash_particle, _x, _y, emit);
+	var _p1 = particle_create(o_muzzle_flash_particle, _x, _y, global.pe_player_normal);
 	_p1.rotation = image_angle;
 	_p1.image_angle = image_angle;
-	var _p2 = particle_create(o_muzzle_flash_particle, _x, _y, emit);
+	var _p2 = particle_create(o_muzzle_flash_particle, _x, _y, global.pe_player_normal);
 	_p2.rotation = image_angle - 90;
 	_p2.image_angle = image_angle - 90;
 	
@@ -44,8 +44,8 @@ if(in_get_pressed(KEYBIND.ACCELERATE)){
 if(in_get_held(KEYBIND.ACCELERATE)){
 	accelerate(acceleration, image_angle);
 	if(check_dt_sum()){
-		particle_create(o_player_thrust_particle, position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), emit);
-		particle_create(o_player_thrust_particle2, position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), emit);
+		particle_create(o_player_thrust_particle, position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), global.pe_player_add);
+		particle_create(o_player_thrust_particle2, position.x + lengthdir_x(10, image_angle - 180), position.y + lengthdir_y(10, image_angle - 180), global.pe_player_add);
 	}
 	
 }
