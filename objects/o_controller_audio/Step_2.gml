@@ -9,4 +9,4 @@ for(var _i = _size - 1; _i >= 0; _i--){
 		ds_list_delete(sounds, _i);
 	}
 }
-show_debug_message(_size);
+//show_debug_message(_size);

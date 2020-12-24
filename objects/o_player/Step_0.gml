@@ -32,6 +32,28 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 	}
 }
 
+//other shoot
+if(railgun_recharge <= 0){
+	if(in_get_held(KEYBIND.RAILGUN) and railgun_charge < railgun_charge_max){
+		railgun_charge = min(railgun_charge + get_dt(), railgun_charge_max);
+	}else if(railgun_charge < railgun_charge_max){
+		railgun_charge = max(railgun_charge - get_dt(), 0);
+	}
+	if(in_get_released(KEYBIND.RAILGUN) and railgun_charge >= railgun_charge_max){
+		railgun_charge = 0;
+		railgun_recharge = railgun_recharge_time;
+		impulse(railgun_recoil, image_angle - 180);
+		sprite_flash(3);
+		SoundInstanceCreate(snd_railgun, audio_emitter, random_range(.7, 1.3), false, 100);
+		screen_shake(5, 12);
+		var _x = position.x + lengthdir_x(10, image_angle);
+		var _y = position.y + lengthdir_y(10, image_angle);
+		var _laser = instance_create_layer(_x, _y, LAYER_PLAYER, o_laser);
+	}
+}else{
+	railgun_recharge = max(railgun_recharge - get_dt(), 0);
+}
+
 //accelerate
 //start of the acceleration
 if(in_get_pressed(KEYBIND.ACCELERATE)){

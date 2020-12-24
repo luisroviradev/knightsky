@@ -23,6 +23,13 @@ dagger_timer_time = 7;
 dagger_timer = 0;
 dagger_recoil = 5;
 
+//railgun
+railgun_charge = 0;
+railgun_charge_max = 30;
+railgun_recoil = 12;
+railgun_recharge = 0;
+railgun_recharge_time = 60;
+
 //sounds
 //vroom_sound = noone;
 nyoom_sound = noone;
