@@ -7,6 +7,7 @@ con_audio = instance_create_layer(0, 0, LAYER_CONTROL, o_controller_audio);
 con_particle = instance_create_layer(0, 0, LAYER_CONTROL, o_controller_particles);
 camera = instance_create_layer(-room_width/2, -room_height/2, LAYER_CONTROL, o_camera);
 player = instance_create_layer(0, 0, LAYER_PLAYER, o_player);
+con_hud = instance_create_layer(0, 0, LAYER_HUD, o_controller_hud);
 
 
 

@@ -24,7 +24,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_player_laser_particle","path":"objects/o_player_laser_particle/o_player_laser_particle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_player_laser_particle","path":"objects/o_player_laser_particle/o_player_laser_particle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -34,6 +33,9 @@
     {"propertyId":{"name":"scale_end_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"scale_start_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"alpha_end","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"scale_start_max","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"1.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"start_speed_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"start_speed_max","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"1.7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Particles",

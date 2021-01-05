@@ -38,6 +38,7 @@ layer_enemy_id = layer_get_id(LAYER_ENEMY);
 layer_fxmid_id = layer_get_id(LAYER_FXMID);
 layer_player_id = layer_get_id(LAYER_PLAYER);
 layer_fxtop_id = layer_get_id(LAYER_FXTOP);
+layer_hud_id = layer_get_id(LAYER_HUD);
 
 
 draw_layer_surfaces = ds_map_create();
@@ -46,17 +47,20 @@ ds_map_add(draw_layer_surfaces, layer_enemy_id, surface_create(dl_width, dl_heig
 ds_map_add(draw_layer_surfaces, layer_fxmid_id, surface_create(dl_width, dl_height));
 ds_map_add(draw_layer_surfaces, layer_player_id, surface_create(dl_width, dl_height));
 ds_map_add(draw_layer_surfaces, layer_fxtop_id, surface_create(dl_width, dl_height));
+ds_map_add(draw_layer_surfaces, layer_hud_id, surface_create(dl_width, dl_height));
 
 layer_script_begin(layer_fxbottom_id, draw_layer_begin);
 layer_script_begin(layer_enemy_id, draw_layer_begin);
 layer_script_begin(layer_fxmid_id, draw_layer_begin);
 layer_script_begin(layer_player_id, draw_layer_begin);
 layer_script_begin(layer_fxtop_id, draw_layer_begin);
+layer_script_begin(layer_hud_id, draw_layer_begin);
 
 layer_script_end(layer_fxbottom_id, draw_layer_end);
 layer_script_end(layer_enemy_id, draw_layer_end);
 layer_script_end(layer_fxmid_id, draw_layer_end);
 layer_script_end(layer_player_id, draw_layer_end);
 layer_script_end(layer_fxtop_id, draw_layer_end);
+layer_script_end(layer_hud_id, draw_layer_end);
 
 #endregion

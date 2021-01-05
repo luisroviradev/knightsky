@@ -10,8 +10,10 @@ image_xscale = length;
 image_yscale = 2;
 
 
-repeat(random_range(10, 20)){
-	//var _x = x + lengthdir_x(random(length), image_angle) + lengthdir_x(random_range(-10, 10), image_angle - 90);
-	//var _y = y + lengthdir_y(random(length), image_angle) + lengthdir_y(random_range(-10, 10), image_angle - 90);
-	var _p = particle_create(o_player_laser_particle, x, y, global.pe_player_add);
+repeat(random_range(20, 40)){
+	var _l = random(length);
+	var _ll = random_range(-10, 10);
+	var _x = position.x + lengthdir_x(_l, image_angle) + lengthdir_x(_ll, image_angle - 90);
+	var _y = position.y + lengthdir_y(_l, image_angle) + lengthdir_y(_ll, image_angle - 90);
+	var _p = particle_create(o_player_laser_particle, _x, _y, global.pe_player_add);
 }

@@ -26,7 +26,7 @@ dagger_recoil = 5;
 //railgun
 railgun_charge = 0;
 railgun_charge_max = 30;
-railgun_recoil = 12;
+railgun_recoil = 24;
 railgun_recharge = 0;
 railgun_recharge_time = 60;
 

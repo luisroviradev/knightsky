@@ -28,8 +28,8 @@ velocity = Vec2Create(0, 0);
 //set position array and actual position in room
 var _v_pos = camera_get_position();
 position = Vec2Create(x, y);
-x = position.x - _v_pos.y;
-y = position.x - _v_pos.y;
+x = position.x - _v_pos.x;
+y = position.y - _v_pos.y;
 delete _v_pos;
 #endregion
 
