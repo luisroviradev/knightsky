@@ -85,6 +85,7 @@
     {"id":{"name":"spr_player_dagger","path":"sprites/spr_player_dagger/spr_player_dagger.yy",},"order":5,},
     {"id":{"name":"snd_swish_sound","path":"sounds/snd_swish_sound/snd_swish_sound.yy",},"order":2,},
     {"id":{"name":"o_particle_emitter","path":"objects/o_particle_emitter/o_particle_emitter.yy",},"order":0,},
+    {"id":{"name":"snd_railgun_charge","path":"sounds/snd_railgun_charge/snd_railgun_charge.yy",},"order":5,},
     {"id":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"order":1,},
     {"id":{"name":"o_controller_hud","path":"objects/o_controller_hud/o_controller_hud.yy",},"order":0,},
     {"id":{"name":"o_test_particle","path":"objects/o_test_particle/o_test_particle.yy",},"order":0,},

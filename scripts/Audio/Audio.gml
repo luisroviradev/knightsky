@@ -46,4 +46,9 @@ function SoundInstance(_sound, _emitter, _pitch, _loops) constructor{
 		audio_stop_sound(sound_id);
 	}
 	
+	///@function is_playing
+	static is_playing = function(){
+		return audio_is_playing(sound_id);
+	}
+	
 }

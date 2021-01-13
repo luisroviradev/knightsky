@@ -1,4 +1,6 @@
 /// @description draw sword and sword trail
+
+
 var _in = 1;
 var _out = 65;
 var x1 = xp + lengthdir_x(_in, ang_p);
@@ -20,4 +22,4 @@ draw_vertex_texture_colour(x4, y4, 0, 1, c_white, 1);
 
 draw_primitive_end();
 
-draw_self();
+draw_sprite_ext(spr_player_sword, 0, x, y, image_xscale, image_yscale, image_angle, c_white, 1);

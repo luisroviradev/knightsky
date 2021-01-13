@@ -33,4 +33,4 @@ railgun_recharge_time = 60;
 //sounds
 //vroom_sound = noone;
 nyoom_sound = noone;
-
+charge_sound = noone;

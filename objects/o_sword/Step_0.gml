@@ -12,9 +12,10 @@ repeat(get_dt_sum()){
 	ang_p = angle_facing;
 	xp = x;
 	yp = y;
-	//sound
-	swish_sound.update_pitch(velocity.get_magnitude()/5 + .75);
 }
+
+//sound
+swish_sound.update_pitch(velocity.get_magnitude()/5 + .75);
 
 //math
 angle_target = point_direction(o_player.position.x, o_player.position.y, position.x, position.y);
