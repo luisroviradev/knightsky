@@ -5,6 +5,8 @@ var _v_pos = camera_get_position();
 
 //update position and collision list
 if(collides_with > 0){
+	x = position.x - _v_pos.x;
+	y = position.y - _v_pos.y;
 	#region complex movement code for actors that have collisions
 	ds_list_clear(collision_list); //empty collision list
 	var _temp_vel = velocity.copy().scale(_dt);
@@ -15,12 +17,16 @@ if(collides_with > 0){
 		//incremental movement
 		if(_d == floor(_m)){
 			position.add(_remainder);
+			x += _remainder.x;
+			y += _remainder.y;
 		}else{
 			position.add(_normal);
+			x += _normal.x;
+			y += _normal.y;
 		}
 		#region collisions
 		var _l = ds_list_create();
-		var _s = instance_place_list(position.x + _v_pos.x, position.y + _v_pos.y, o_actor, _l, true);
+		var _s = instance_place_list(x, y, o_actor, _l, true);
 		for(var _i = 0; _i < _s; _i++){
 			//if the instance is not in the collision list already
 			var _inst = _l[| _i];
@@ -36,6 +42,8 @@ if(collides_with > 0){
 	delete _normal;
 	delete _remainder;
 	var _s = ds_list_size(collision_list);
+	//show_debug_message(string(_s));
+	//perform collision logic
 	for(var _i = 0; _i < _s; _i++){
 		var _inst = collision_list[|_i];
 		if(_inst.collision_group & collides_with > 0){
@@ -50,10 +58,9 @@ else{
 	var _temp_vel = velocity.copy().scale(_dt);
 	position.add(_temp_vel);
 	delete _temp_vel;
+	x = position.x - _v_pos.x;
+	y = position.y - _v_pos.y;
 }
-
-x = position.x - _v_pos.x;
-y = position.y - _v_pos.y;
 
 delete _v_pos;
 
