@@ -35,6 +35,14 @@ if(collides_with > 0){
 	delete _temp_vel;
 	delete _normal;
 	delete _remainder;
+	var _s = ds_list_size(collision_list);
+	for(var _i = 0; _i < _s; _i++){
+		var _inst = collision_list[|_i];
+		if(_inst.collision_group & collides_with > 0){
+			current_collider = _inst;
+			event_perform(ev_other, ev_user14);
+		}
+	}
 	#endregion
 }
 else{

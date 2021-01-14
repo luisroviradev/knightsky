@@ -38,6 +38,7 @@ collision_list = noone;
 if(collides_with > 0){
 	collision_list = ds_list_create();
 }
+current_collider = noone;
 #endregion
 
 #region create audio emitter
