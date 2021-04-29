@@ -3,6 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
+player = noone
+
 follow_dist = 35;
 follow_speed = .5;
 turn_rate = .35;

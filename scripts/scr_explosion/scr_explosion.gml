@@ -2,7 +2,10 @@
 ///@arg x
 ///@arg y
 function scr_explosion(x, y){
-	particle_create(o_explosion_flash, x, y, global.pe_fxtop_normal);
+	flash(x, y, 50);
+	var _s = choose(snd_explosion_0, snd_explosion_1, snd_explosion_2, snd_explosion_3, snd_explosion_4);
+	var _p = random_range(.85, 1.2);
+	SoundInstanceAt(_s, _p, 10, x, y);
 	repeat(random_range(10, 15)){
 		var _angle = random_range(0, 360);
 		var _length = random(32);

@@ -13,6 +13,18 @@ function SoundInstanceCreate(_sound, _emitter, _pitch, _loops, _priority){
 	return _si;
 }
 
+///@function SoundInstanceAt
+///@arg sound
+///@arg pitch
+///@arg priority
+///@arg x
+///@arg y
+function SoundInstanceAt(_sound, _pitch, _priority, _x, _y){
+	var _inst =  instance_create_layer(_x, _y, LAYER_CONTROL, o_point_sound);
+	_inst.si = SoundInstanceCreate(_sound, _inst.audio_emitter, _pitch, false, _priority)
+	
+}
+
 ///@function SoundInstance
 ///@arg sound
 ///@arg emitter
