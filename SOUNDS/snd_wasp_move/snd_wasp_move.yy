@@ -13,8 +13,8 @@
   "soundFile": "snd_wasp_move.wav",
   "duration": 2.173662,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Game Entities/Enemies.yy",
+    "name": "Wasp",
+    "path": "folders/Game Entities/Enemies/Wasp.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_wasp_move",

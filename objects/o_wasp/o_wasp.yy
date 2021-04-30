@@ -38,8 +38,8 @@
     {"propertyId":{"name":"has_audio","path":"objects/o_actor/o_actor.yy",},"objectId":{"name":"o_actor","path":"objects/o_actor/o_actor.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Game Entities/Enemies.yy",
+    "name": "Wasp",
+    "path": "folders/Game Entities/Enemies/Wasp.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_wasp",

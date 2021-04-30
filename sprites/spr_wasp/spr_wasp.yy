@@ -69,9 +69,10 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4592d99-fae2-466f-8526-a85888ac5bde","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"ac23c6f1-af61-4fad-a9a7-d0bc6ed56d42","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Game Entities/Enemies.yy",
+    "name": "Wasp",
+    "path": "folders/Game Entities/Enemies/Wasp.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_wasp",
