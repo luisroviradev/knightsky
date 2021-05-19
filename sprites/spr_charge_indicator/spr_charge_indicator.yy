@@ -105,16 +105,12 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"fcf977ff-1b5b-4610-b888-5b2a4fa587a6","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"fcf977ff-1b5b-4610-b888-5b2a4fa587a6","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"83ae074b-5c70-42b4-8598-c3120e0728aa","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"fcf977ff-1b5b-4610-b888-5b2a4fa587a6","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"78681888-939c-4ad5-988e-0524139750e7","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"fcf977ff-1b5b-4610-b888-5b2a4fa587a6","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"a2937861-032f-49f4-8d0e-9730aa643002","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_charge_indicator","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"fcf977ff-1b5b-4610-b888-5b2a4fa587a6","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"17de6553-2da7-4089-b0aa-f148ecf03d0d","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"17de6553-2da7-4089-b0aa-f148ecf03d0d","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"83ae074b-5c70-42b4-8598-c3120e0728aa","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_charge_indicator","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"17de6553-2da7-4089-b0aa-f148ecf03d0d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"993a21c4-0d6c-4421-9fcd-26b57c3440da","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"993a21c4-0d6c-4421-9fcd-26b57c3440da","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"83ae074b-5c70-42b4-8598-c3120e0728aa","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"993a21c4-0d6c-4421-9fcd-26b57c3440da","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"78681888-939c-4ad5-988e-0524139750e7","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"993a21c4-0d6c-4421-9fcd-26b57c3440da","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"LayerId":{"name":"a2937861-032f-49f4-8d0e-9730aa643002","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_charge_indicator","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"resourceVersion":"1.0","name":"993a21c4-0d6c-4421-9fcd-26b57c3440da","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -158,6 +154,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"83ae074b-5c70-42b4-8598-c3120e0728aa","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "HUD",
     "path": "folders/Control/HUD.yy",

@@ -35,7 +35,7 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_3B27CE5","path":"rooms/r_main/r_main.yy",},
+    {"name":"inst_3B27CE5","path":"rooms/r_game/r_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -63,7 +63,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "r_main",
+  "name": "r_game",
   "tags": [],
   "resourceType": "GMRoom",
 }
