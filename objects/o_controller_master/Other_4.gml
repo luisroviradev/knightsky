@@ -6,8 +6,6 @@ if(room == r_game){
 
 
 	#region
-	repeat(10){
-		instance_create_layer(random_range(-1000, 1000), random_range(-1000, 1000), LAYER_ENEMY, o_wasp);
-	}
+	wave_controller = instance_create_layer(0, 0, LAYER_CONTROL, o_controller_waves);
 	#endregion
 }

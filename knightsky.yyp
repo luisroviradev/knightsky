@@ -81,6 +81,7 @@
     {"id":{"name":"spr_explosion_flash","path":"sprites/spr_explosion_flash/spr_explosion_flash.yy",},"order":1,},
     {"id":{"name":"snd_wasp_move","path":"sounds/snd_wasp_move/snd_wasp_move.yy",},"order":2,},
     {"id":{"name":"sh_background","path":"shaders/sh_background/sh_background.yy",},"order":0,},
+    {"id":{"name":"o_controller_waves","path":"objects/o_controller_waves/o_controller_waves.yy",},"order":0,},
     {"id":{"name":"o_muzzle_flash_particle","path":"objects/o_muzzle_flash_particle/o_muzzle_flash_particle.yy",},"order":2,},
     {"id":{"name":"sh_outline","path":"shaders/sh_outline/sh_outline.yy",},"order":1,},
     {"id":{"name":"snd_sword_hit","path":"sounds/snd_sword_hit/snd_sword_hit.yy",},"order":7,},
@@ -166,6 +167,7 @@
     {"folderPath":"folders/Game Entities/Enemies/Wasp.yy","order":3,"resourceVersion":"1.0","name":"Wasp","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Control/Menu.yy","order":9,"resourceVersion":"1.0","name":"Menu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Control/Menu/Scripts.yy","order":5,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Control/Waves.yy","order":10,"resourceVersion":"1.0","name":"Waves","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
