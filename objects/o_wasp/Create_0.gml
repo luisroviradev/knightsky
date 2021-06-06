@@ -13,9 +13,9 @@ var _s = random_range(.5, .75);
 image_xscale = _s;
 image_yscale = _s;
 
-acceleration_rate = .4;
+acceleration_rate = .6;
 
-max_speed = 7;
+max_speed = 6;
 
 vroom_sound = SoundInstanceCreate(snd_wasp_move, audio_emitter, 1, true, 70);
 
