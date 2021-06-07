@@ -7,6 +7,6 @@ if(current_collider.collision_group & COLLISION_GROUP.ENEMY){
 		sprite_flash(3);
 	}
 	current_collider.damage(dagger_damage);
-	current_collider.impulse(velocity.get_magnitude(), velocity.get_angle());
+	current_collider.impulse(velocity.get_magnitude()/4, velocity.get_angle());
 	hp = 0;
 }

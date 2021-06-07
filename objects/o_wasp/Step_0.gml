@@ -1,9 +1,9 @@
 /// @description AI
 
-var _target_x = o_player.x;
-var _target_y = o_player.y;
+var _target_x = o_player.position.x;
+var _target_y = o_player.position.y;
 
-var _target_angle = point_direction(x, y, _target_x, _target_y);
+var _target_angle = point_direction(position.x, position.y, _target_x, _target_y);
 
 var _angle_difference = angle_difference(_target_angle, angle);
 
