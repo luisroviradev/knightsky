@@ -11,9 +11,9 @@ var _s = 1;
 image_xscale = _s;
 image_yscale = _s;
 
-acceleration_rate = .5;
+acceleration_rate = .2;
 
-max_speed = 6;
+max_speed = 9;
 
 state = 0;
 

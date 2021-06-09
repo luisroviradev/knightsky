@@ -13,6 +13,9 @@ image_angle = angle - 45;
 
 if(abs(_angle_difference) < 15){
 	accelerate(acceleration_rate, angle);
+	if(get_dt_sum()){
+		particle_create(o_wasp_particle, position.x, position.y, global.pe_enemy_add);
+	}
 }
 
 if(velocity.get_magnitude() > max_speed){

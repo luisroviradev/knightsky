@@ -94,6 +94,7 @@
     {"id":{"name":"o_explosion_flash","path":"objects/o_explosion_flash/o_explosion_flash.yy",},"order":2,},
     {"id":{"name":"spr_charge_indicator","path":"sprites/spr_charge_indicator/spr_charge_indicator.yy",},"order":1,},
     {"id":{"name":"spr_flash","path":"sprites/spr_flash/spr_flash.yy",},"order":1,},
+    {"id":{"name":"o_wasp_particle","path":"objects/o_wasp_particle/o_wasp_particle.yy",},"order":3,},
     {"id":{"name":"o_controller_delta","path":"objects/o_controller_delta/o_controller_delta.yy",},"order":0,},
     {"id":{"name":"get_dt_mod","path":"scripts/get_dt_mod/get_dt_mod.yy",},"order":6,},
     {"id":{"name":"o_controller_audio","path":"objects/o_controller_audio/o_controller_audio.yy",},"order":1,},
