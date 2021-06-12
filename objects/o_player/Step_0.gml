@@ -36,6 +36,7 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 if(railgun_recharge <= 0){
 	if(in_get_held(KEYBIND.RAILGUN) and railgun_charge < railgun_charge_max){
 		railgun_charge = min(railgun_charge + get_dt(), railgun_charge_max);
+		//play sound
 		if(charge_sound != noone){
 			charge_sound.update_pitch(.25 + ((railgun_charge/railgun_charge_max)*.75));
 		}else{
@@ -43,6 +44,16 @@ if(railgun_recharge <= 0){
 		}
 	}else if(railgun_charge < railgun_charge_max){
 		railgun_charge = max(railgun_charge - get_dt(), 0);
+	}
+	if(railgun_charge >= railgun_charge_max){
+		//particles
+		if(get_dt_sum()){
+			var _len = irandom(10);
+			var _dir = irandom(360);
+			var _x = position.x + lengthdir_x(_len, _dir);
+			var _y = position.y + lengthdir_y(_len, _dir);
+			var _p = particle_create(o_player_laser_particle, _x, _y, global.pe_player_add);
+		}
 	}
 	if(in_get_released(KEYBIND.RAILGUN) and railgun_charge >= railgun_charge_max){
 		railgun_charge = 0;

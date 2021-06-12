@@ -22,4 +22,6 @@ draw_vertex_texture_colour(x4, y4, 0, 1, c_white, 1);
 
 draw_primitive_end();
 
+
+
 draw_sprite_ext(spr_player_sword, 0, x, y, image_xscale, image_yscale, image_angle, c_white, 1);

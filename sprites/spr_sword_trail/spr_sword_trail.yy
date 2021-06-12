@@ -106,6 +106,9 @@
     {"compositeImage":{"FrameId":{"name":"fd4bec71-de11-4416-afa1-5fbda265a065","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"fd4bec71-de11-4416-afa1-5fbda265a065","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"LayerId":{"name":"beaa3f8a-a418-4b7e-b94d-51c58be7b2c0","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_sword_trail","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"resourceVersion":"1.0","name":"fd4bec71-de11-4416-afa1-5fbda265a065","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b22f2ec2-4942-456c-b1c5-036d1b959dec","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b22f2ec2-4942-456c-b1c5-036d1b959dec","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"LayerId":{"name":"beaa3f8a-a418-4b7e-b94d-51c58be7b2c0","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_sword_trail","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"resourceVersion":"1.0","name":"b22f2ec2-4942-456c-b1c5-036d1b959dec","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_sword_trail","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},
@@ -115,12 +118,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"7eba23e2-2229-46af-a4b9-c209633eb449","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd4bec71-de11-4416-afa1-5fbda265a065","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9a64cd22-b84e-40ce-bb7b-3139a29e0f78","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b22f2ec2-4942-456c-b1c5-036d1b959dec","path":"sprites/spr_sword_trail/spr_sword_trail.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

@@ -5,13 +5,13 @@
 event_inherited();
 
 angle = random(360);
-turn_rate = .1;
+turn_rate = .25;
 
 var _s = 1;
 image_xscale = _s;
 image_yscale = _s;
 
-acceleration_rate = .2;
+acceleration_rate = .5;
 
 max_speed = 9;
 
