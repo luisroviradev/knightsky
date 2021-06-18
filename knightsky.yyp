@@ -35,6 +35,7 @@
     {"id":{"name":"slow_time","path":"scripts/slow_time/slow_time.yy",},"order":3,},
     {"id":{"name":"snd_railgun_hiss","path":"sounds/snd_railgun_hiss/snd_railgun_hiss.yy",},"order":6,},
     {"id":{"name":"check_dt_sum","path":"scripts/check_dt_sum/check_dt_sum.yy",},"order":4,},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":2,},
     {"id":{"name":"o_player_thrust_particle2","path":"objects/o_player_thrust_particle2/o_player_thrust_particle2.yy",},"order":1,},
     {"id":{"name":"sprite_flash","path":"scripts/sprite_flash/sprite_flash.yy",},"order":4,},
     {"id":{"name":"o_player_thrust_particle","path":"objects/o_player_thrust_particle/o_player_thrust_particle.yy",},"order":0,},

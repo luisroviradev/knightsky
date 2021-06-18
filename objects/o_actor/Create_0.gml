@@ -46,6 +46,7 @@ audio_emitter = noone;
 if(has_audio){
 	audio_emitter = audio_emitter_create();
 	audio_emitter_falloff(audio_emitter, 100, 300, 1);
+	audio_emitter_position(audio_emitter, x, y, 0);
 }
 #endregion
 

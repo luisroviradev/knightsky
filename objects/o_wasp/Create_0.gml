@@ -8,7 +8,7 @@ angle = random(360);
 turn_rate = .25;
 
 
-var _s = random_range(.5, .75);
+var _s = .5;
 
 image_xscale = _s;
 image_yscale = _s;

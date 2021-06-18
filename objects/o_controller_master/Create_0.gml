@@ -15,3 +15,4 @@ camera = instance_create_layer(-room_width/2, -room_height/2, LAYER_CONTROL, o_c
 //	instance_create_layer(random_range(-1000, 1000), random_range(-1000, 1000), LAYER_ENEMY, o_wasp);
 //}
 //#endregion
+
