@@ -8,7 +8,7 @@ var _r = 4;
 var _d = o_player.image_angle + random_range(-_r, _r);
 set_velocity_xy(lengthdir_x(_s, _d), lengthdir_y(_s, _d));
 
-image_angle = _d - 45;
+image_angle = velocity.get_angle() - 45;
 var _scale = random_range(.2, .4);
 image_xscale = _scale;
 image_yscale = _scale;
@@ -16,3 +16,6 @@ image_yscale = _scale;
 sprite_flash(3);
 
 dagger_damage = 1;
+
+modifiers = ds_list_create();
+ds_list_add(modifiers, new wiggle());
