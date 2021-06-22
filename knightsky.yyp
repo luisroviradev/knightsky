@@ -68,6 +68,7 @@
     {"id":{"name":"bg1_begin","path":"scripts/bg1_begin/bg1_begin.yy",},"order":0,},
     {"id":{"name":"o_player_laser_particle","path":"objects/o_player_laser_particle/o_player_laser_particle.yy",},"order":3,},
     {"id":{"name":"o_controller_dagger","path":"objects/o_controller_dagger/o_controller_dagger.yy",},"order":1,},
+    {"id":{"name":"scr_dagger_modifiers","path":"scripts/scr_dagger_modifiers/scr_dagger_modifiers.yy",},"order":2,},
     {"id":{"name":"bg2_begin","path":"scripts/bg2_begin/bg2_begin.yy",},"order":1,},
     {"id":{"name":"r_menu","path":"rooms/r_menu/r_menu.yy",},"order":0,},
     {"id":{"name":"o_blip","path":"objects/o_blip/o_blip.yy",},"order":0,},
