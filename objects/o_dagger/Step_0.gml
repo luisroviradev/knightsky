@@ -12,3 +12,7 @@ image_angle = velocity.get_angle() - 45;
 image_xscale = dagger_size;
 image_yscale = dagger_size;
 hp -= get_dt();
+
+if(hp <= 0){
+	flash(position.x, position.y, random_range(5, 10));
+}
