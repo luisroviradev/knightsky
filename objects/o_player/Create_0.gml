@@ -17,8 +17,8 @@ turn_rate = .25;
 //emit = particle_emitter_create(LAYER_PLAYER, bm_add);
 
 //sword
-//sword = instance_create_layer(position.x, position.y, LAYER_PLAYER, o_sword);
-//sword.player = self
+sword = instance_create_layer(position.x, position.y, LAYER_PLAYER, o_sword);
+sword.player = self
 
 //daggers
 dagger_timer_time = 7;
