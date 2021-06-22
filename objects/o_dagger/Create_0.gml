@@ -16,6 +16,3 @@ image_yscale = _scale;
 sprite_flash(3);
 
 dagger_damage = 1;
-
-modifiers = ds_list_create();
-ds_list_add(modifiers, new wiggle());
