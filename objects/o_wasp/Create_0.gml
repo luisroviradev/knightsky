@@ -15,7 +15,7 @@ image_yscale = _s;
 
 acceleration_rate = .6;
 
-max_speed = 6;
+max_speed = 8;
 
 vroom_sound = SoundInstanceCreate(snd_wasp_move, audio_emitter, 1, true, 70);
 

@@ -19,4 +19,9 @@ if(current_collider.collision_group & COLLISION_GROUP.ENEMY){
 	current_collider.damage(_damage * get_dt());
 	var _dir = angle_facing + (sign(angle_diff) * 90);
 	current_collider.accelerate(abs(angle_diff) * .4, _dir);
+	if(current_collider.hp <= 0){
+		repeat(3){
+			var _inst = instance_create_layer(current_collider.position.x, current_collider.position.y, LAYER_PLAYER, o_pollup);
+		}
+	}
 }
