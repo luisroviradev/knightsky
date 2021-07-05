@@ -43,7 +43,7 @@ void main()
 			float _dir = _a * _multiplier;
 			vec2 _v = vec2(cos(_dir) * texel_dim.x, sin(_dir) * texel_dim.y);
 			float _a1 = texture2D(gm_BaseTexture, v_vTexcoord + (_v)).a;
-			float _a2 = texture2D(gm_BaseTexture, v_vTexcoord + (_v * 1.0)).a;
+			float _a2 = texture2D(gm_BaseTexture, v_vTexcoord + (_v * 2.0)).a;
 			base_color.a += _a1 + _a2;
 		}
 		
