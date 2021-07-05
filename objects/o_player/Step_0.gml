@@ -7,7 +7,7 @@ var _target_angle = point_direction(x, y, mouse_x, mouse_y);
 image_angle += angle_difference(_target_angle, image_angle) * _dt * turn_rate;
 image_angle = wrap(image_angle, 0, 360);
 
-/*/shoot
+//shoot
 dagger_timer -= min(_dt, dagger_timer);
 if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 	dagger_timer += dagger_timer_time;
@@ -28,7 +28,7 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 	
 	//create daggers
 	var _inst = instance_create_layer(_x, _y, LAYER_PLAYER, o_dagger);
-*/
+}
 
 //accelerate
 //start of the acceleration
