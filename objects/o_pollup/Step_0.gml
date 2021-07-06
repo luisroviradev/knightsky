@@ -13,3 +13,5 @@ if(velocity.get_magnitude() > max_speed){
 	//decelerate(.05 * velocity.get_magnitude());
 	set_velocity(velocity.normalize().scale(max_speed));
 }
+
+move_sound.update_pitch(velocity.get_magnitude()/5)
