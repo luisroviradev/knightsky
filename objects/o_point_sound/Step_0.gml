@@ -4,5 +4,5 @@
 if(!si.is_playing()){
 	delete si;
 	instance_destroy();
-	show_debug_message("dying");
+	//show_debug_message("dying");
 }

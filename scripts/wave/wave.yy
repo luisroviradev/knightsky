@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Maths",
-    "path": "folders/Autonomous Scripts/Maths.yy",
+    "path": "folders/Libraries/Maths.yy",
   },
   "resourceVersion": "1.0",
   "name": "wave",

@@ -86,8 +86,8 @@ function WaveElement(_enemy, _chance) constructor{
 	spawn = function(){
 		var _len = 1000;
 		var _dir = random(360);
-		instance_create_layer(	o_player.position.x + lengthdir_x(_len, _dir),
-								o_player.position.y + lengthdir_y(_len, _dir),
+		instance_create_layer(	o_controller_master.player.position.x + lengthdir_x(_len, _dir),
+								o_controller_master.player.position.y + lengthdir_y(_len, _dir),
 								LAYER_ENEMY, enemy);
 	}
 }

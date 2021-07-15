@@ -110,7 +110,21 @@ if(in_get_released(KEYBIND.ACCELERATE)){
 if(in_get_held(KEYBIND.DECELERATE)){
 	decelerate(deceleration);
 }
-//limittting speed
+//limitting speed
 if(velocity.get_magnitude() > max_speed){
 	decelerate(.05 * velocity.get_magnitude());
+}
+
+if(hit_sound){
+	if(!hit_sound.is_playing()){
+		delete hit_sound;
+		hit_sound = noone;
+	}
+}
+
+if(hp <= 0){
+	o_controller_master.player = instance_create_layer(position.x, position.y, LAYER_PLAYER, o_dead_player);
+	scr_explosion(position.x, position.y);
+	instance_destroy(sword);
+	instance_destroy();
 }

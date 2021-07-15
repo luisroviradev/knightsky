@@ -5,7 +5,7 @@ event_inherited();
 
 length = 600;
 
-image_angle = o_player.image_angle;
+image_angle = o_controller_master.player.image_angle;
 image_xscale = length;
 image_yscale = 2;
 

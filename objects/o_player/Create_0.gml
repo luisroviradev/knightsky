@@ -7,14 +7,15 @@ image_xscale = .5;
 image_yscale = .5;
 image_speed = 0;
 
+//health
+hp_max = hp;
+
+//movement
 max_speed = 6;
 impulse_force = 15;
 acceleration = .6;
 deceleration = .15;
 turn_rate = .25;
-
-//particle emitter
-//emit = particle_emitter_create(LAYER_PLAYER, bm_add);
 
 //sword
 sword = instance_create_layer(position.x, position.y, LAYER_PLAYER, o_sword);
@@ -36,3 +37,4 @@ railgun_recharge_time = 60;
 //vroom_sound = noone;
 nyoom_sound = noone;
 charge_sound = noone;
+hit_sound = noone;
