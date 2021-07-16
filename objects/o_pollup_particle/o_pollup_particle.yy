@@ -26,8 +26,8 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"life_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"life_max","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"life_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"life_max","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"start_speed_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"start_speed_max","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"rotation_d_min","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"2.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

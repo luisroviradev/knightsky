@@ -95,6 +95,7 @@
     {"id":{"name":"o_controller_waves","path":"objects/o_controller_waves/o_controller_waves.yy",},"order":0,},
     {"id":{"name":"o_muzzle_flash_particle","path":"objects/o_muzzle_flash_particle/o_muzzle_flash_particle.yy",},"order":2,},
     {"id":{"name":"snd_get_hit","path":"sounds/snd_get_hit/snd_get_hit.yy",},"order":9,},
+    {"id":{"name":"spr_hp_bar","path":"sprites/spr_hp_bar/spr_hp_bar.yy",},"order":3,},
     {"id":{"name":"sh_outline","path":"shaders/sh_outline/sh_outline.yy",},"order":1,},
     {"id":{"name":"snd_sword_hit","path":"sounds/snd_sword_hit/snd_sword_hit.yy",},"order":7,},
     {"id":{"name":"scr_menu_start_game","path":"scripts/scr_menu_start_game/scr_menu_start_game.yy",},"order":0,},
