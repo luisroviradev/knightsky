@@ -122,6 +122,16 @@ if(hit_sound){
 	}
 }
 
+//dying effects
+if(get_dt_sum() and random(1) < (1 - (hp/hp_max))){
+	var _len = irandom(10);
+	var _dir = irandom(360);
+	var _x = position.x + lengthdir_x(_len, _dir);
+	var _y = position.y + lengthdir_y(_len, _dir);
+	var _p = particle_create(o_player_dying_particle, _x, _y, global.pe_player_add);
+}
+
+//dying
 if(hp <= 0){
 	o_controller_master.player = instance_create_layer(position.x, position.y, LAYER_PLAYER, o_dead_player);
 	scr_explosion(position.x, position.y);
