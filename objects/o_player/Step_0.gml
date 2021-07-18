@@ -33,6 +33,8 @@ if(in_get_held(KEYBIND.SHOOT) and dagger_timer <= 0){
 }
 
 //other shoot
+#region railgun
+/*
 if(railgun_recharge <= 0){
 	if(in_get_held(KEYBIND.RAILGUN) and railgun_charge < railgun_charge_max){
 		railgun_charge = min(railgun_charge + get_dt(), railgun_charge_max);
@@ -75,7 +77,8 @@ if(in_get_none(KEYBIND.RAILGUN)){
 		delete charge_sound;
 		charge_sound = noone;
 	}
-}
+}*/
+#endregion
 
 //accelerate
 //start of the acceleration

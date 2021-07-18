@@ -11,7 +11,7 @@ if(in_get_held(KEYBIND.SHOOT)){
 	decelerate(2);
 	hp -= get_dt()/60;
 }else{
-	accelerate(2, point_direction(position.x, position.y, o_controller_master.player.position.x, o_controller_master.player.position.y));
+	accelerate(1.5, point_direction(position.x, position.y, o_controller_master.player.position.x, o_controller_master.player.position.y));
 }
 
 if(velocity.get_magnitude() > max_speed){
