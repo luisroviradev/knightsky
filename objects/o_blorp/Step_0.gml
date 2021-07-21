@@ -14,12 +14,13 @@ image_angle = angle - 45;
 if(point_distance(_target_x, _target_y, position.x, position.y) > orbit_dist){
 	if(abs(_angle_difference) < 15){
 		accelerate(acceleration_rate, angle);
-		if(get_dt_sum()){
-			particle_create(o_wasp_particle, position.x + velocity.x, position.y + velocity.y, global.pe_fxbottom_normal);
-		}
 	}
 }else{
 	accelerate(acceleration_rate, angle - 180);
+}
+
+if(get_dt_sum()){
+	particle_create(o_blorp_particle, position.x + velocity.x, position.y + velocity.y, global.pe_fxbottom_normal);
 }
 
 if(velocity.get_magnitude() > max_speed){
