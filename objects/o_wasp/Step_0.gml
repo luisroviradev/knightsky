@@ -13,7 +13,7 @@ image_angle = angle - 45;
 
 if(abs(_angle_difference) < 15){
 	accelerate(acceleration_rate, angle);
-	if(get_dt_sum()){
+	if(get_dt_sum() >= 1){
 		particle_create(o_wasp_particle, position.x + velocity.x, position.y + velocity.y, global.pe_fxbottom_normal);
 	}
 }

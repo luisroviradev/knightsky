@@ -126,7 +126,7 @@ if(hit_sound){
 }
 
 //dying effects
-if(get_dt_sum() and random(1) < (1 - (hp/hp_max))){
+if(get_dt_sum() >= 1 and random(1) < (1 - (hp/hp_max))){
 	var _len = irandom(10);
 	var _dir = irandom(360);
 	var _x = position.x + lengthdir_x(_len, _dir);

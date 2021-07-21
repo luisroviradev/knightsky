@@ -19,8 +19,8 @@ if(point_distance(_target_x, _target_y, position.x, position.y) > orbit_dist){
 	accelerate(acceleration_rate, angle - 180);
 }
 
-if(get_dt_sum()){
-	particle_create(o_blorp_particle, position.x + velocity.x, position.y + velocity.y, global.pe_fxbottom_normal);
+if(get_dt_sum() >= 1){
+	particle_create(o_blorp_particle, position.x + velocity.x, position.y + velocity.y, global.pe_enemy_add);
 }
 
 if(velocity.get_magnitude() > max_speed){
