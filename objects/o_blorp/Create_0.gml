@@ -22,3 +22,5 @@ vroom_sound = SoundInstanceCreate(snd_blorp_move, audio_emitter, 0.1, true, 70);
 init_pitch = random_range(.5, .8);
 
 orbit_dist = random_range(90, 120);
+
+shoot_timer = 0;

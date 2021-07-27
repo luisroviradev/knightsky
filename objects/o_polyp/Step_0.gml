@@ -3,7 +3,7 @@
 
 if(get_dt_sum() >= 1){
 	repeat(2){
-		var _inst = particle_create(o_pollup_particle, position.x, position.y, global.pe_player_add);
+		var _inst = particle_create(o_polyp_particle, position.x, position.y, global.pe_player_add);
 	}
 }
 

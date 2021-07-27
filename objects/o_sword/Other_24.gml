@@ -1,7 +1,7 @@
 /// @description Enemy collisions
 
 var _damage = ((abs(angle_diff)) + (player.velocity.get_magnitude() * (abs(angle_diff) * .1))) * .1;
-if(current_collider.collision_group & COLLISION_GROUP.ENEMY){
+if(current_collider.collision_group & (COLLISION_GROUP.ENEMY | COLLISION_GROUP.ENEMY_PROJECTILE)){
 	if(_damage > 1){
 		if(hit_sound0)
 			hit_sound0.stop_sound();
@@ -21,7 +21,7 @@ if(current_collider.collision_group & COLLISION_GROUP.ENEMY){
 	current_collider.accelerate(abs(angle_diff) * .4, _dir);
 	if(current_collider.hp <= 0){
 		repeat(5){
-			var _inst = instance_create_layer(current_collider.position.x, current_collider.position.y, LAYER_PLAYER, o_pollup);
+			var _inst = instance_create_layer(current_collider.position.x, current_collider.position.y, LAYER_PLAYER, o_polyp);
 		}
 	}
 }

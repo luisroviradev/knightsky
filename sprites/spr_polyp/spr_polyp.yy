@@ -103,12 +103,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c707bc07-1547-43ac-b051-e8b9d4917827","path":"sprites/spr_pollup/spr_pollup.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c707bc07-1547-43ac-b051-e8b9d4917827","path":"sprites/spr_pollup/spr_pollup.yy",},"LayerId":{"name":"f8c4f689-133c-4aa2-8530-89bc5efb34d9","path":"sprites/spr_pollup/spr_pollup.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pollup","path":"sprites/spr_pollup/spr_pollup.yy",},"resourceVersion":"1.0","name":"c707bc07-1547-43ac-b051-e8b9d4917827","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c707bc07-1547-43ac-b051-e8b9d4917827","path":"sprites/spr_polyp/spr_polyp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c707bc07-1547-43ac-b051-e8b9d4917827","path":"sprites/spr_polyp/spr_polyp.yy",},"LayerId":{"name":"f8c4f689-133c-4aa2-8530-89bc5efb34d9","path":"sprites/spr_polyp/spr_polyp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_polyp","path":"sprites/spr_polyp/spr_polyp.yy",},"resourceVersion":"1.0","name":"c707bc07-1547-43ac-b051-e8b9d4917827","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_pollup","path":"sprites/spr_pollup/spr_pollup.yy",},
+    "spriteId": {"name":"spr_polyp","path":"sprites/spr_polyp/spr_polyp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -120,7 +120,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cc7fb7d3-4277-4c7d-b378-78aba9b05bcc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c707bc07-1547-43ac-b051-e8b9d4917827","path":"sprites/spr_pollup/spr_pollup.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cc7fb7d3-4277-4c7d-b378-78aba9b05bcc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c707bc07-1547-43ac-b051-e8b9d4917827","path":"sprites/spr_polyp/spr_polyp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -137,9 +137,9 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_pollup","path":"sprites/spr_pollup/spr_pollup.yy",},
+    "parent": {"name":"spr_polyp","path":"sprites/spr_polyp/spr_polyp.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_pollup",
+    "name": "spr_polyp",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -148,11 +148,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Pollup",
-    "path": "folders/Game Entities/Pollup.yy",
+    "name": "Polyp",
+    "path": "folders/Game Entities/Polyp.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_pollup",
+  "name": "spr_polyp",
   "tags": [],
   "resourceType": "GMSprite",
 }

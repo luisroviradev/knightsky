@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pollup",
-    "path": "sprites/spr_pollup/spr_pollup.yy",
+    "name": "spr_polyp",
+    "path": "sprites/spr_polyp/spr_polyp.yy",
   },
   "solid": false,
   "visible": true,
@@ -39,11 +39,11 @@
     {"propertyId":{"name":"scale_start_max","path":"objects/o_particle/o_particle.yy",},"objectId":{"name":"o_particle","path":"objects/o_particle/o_particle.yy",},"value":"0.25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Pollup",
-    "path": "folders/Game Entities/Pollup.yy",
+    "name": "Polyp",
+    "path": "folders/Game Entities/Polyp.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_pollup_particle",
+  "name": "o_polyp_particle",
   "tags": [],
   "resourceType": "GMObject",
 }
