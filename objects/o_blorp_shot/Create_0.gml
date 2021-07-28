@@ -10,4 +10,4 @@ image_yscale = 0;
 shot = false;
 target = noone;
 
-charge_sound = SoundInstanceCreate(snd_blorp_charge, audio_emitter, 0.1, true, 70);
+charge_sound = SoundInstanceCreate(snd_blorp_charge, audio_emitter, .1, true, 70);

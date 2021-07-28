@@ -11,12 +11,17 @@ if(shoot_timer > 0){
 	}else{
 		hp = 0;
 	}
+	charge_sound.update_pitch((image_xscale * 2) + .1);
+	velocity.x = 0;
+	velocity.y = 0;
 }else{
 	if(!shot){
+		charge_sound.stop_sound();
 		shot = true;
 		var _p = o_controller_master.player;
 		var _dir = point_direction(position.x, position.y, _p.position.x, _p.position.y);
 		impulse(10, _dir);
+		SoundInstanceAt(snd_blorp_shoot, 1, 70, position.x, position.y);
 	}
 	repeat(get_dt_sum()){
 		particle_create(o_blorp_shot_particle, position.x, position.y, global.pe_enemy_add);

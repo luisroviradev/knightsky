@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_blorp_charge",
-  "duration": 0.0,
+  "soundFile": "snd_blorp_charge.wav",
+  "duration": 2.313265,
   "parent": {
     "name": "Blorp",
     "path": "folders/Game Entities/Enemies/Blorp.yy",
