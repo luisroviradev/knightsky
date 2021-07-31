@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-angle = random(360);
+angle = point_direction(position.x, position.y, o_controller_master.player.position.x, o_controller_master.player.position.y);
 turn_rate = .25;
 
 

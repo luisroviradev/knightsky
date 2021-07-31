@@ -1,7 +1,7 @@
 /// @description AI
 
-var _target_x = o_controller_master.player.position.x;
-var _target_y = o_controller_master.player.position.y;
+var _target_x = o_controller_master.player.position.x + o_controller_master.player.velocity.x;
+var _target_y = o_controller_master.player.position.y + o_controller_master.player.velocity.y;
 
 var _target_angle = point_direction(position.x, position.y, _target_x, _target_y);
 

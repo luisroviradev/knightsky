@@ -16,5 +16,8 @@ waves = [
 	WaveCreate([
 			WaveElementCreate(o_blorp, 1)
 		], 1 * 60, 20 * 60),
+	WaveCreate([
+			WaveElementCreate(o_wasp, 1)
+		], 2 * 60, 20 * 60),
 ];
 current_wave = 0;

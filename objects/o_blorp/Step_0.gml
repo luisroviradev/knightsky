@@ -10,17 +10,17 @@ var _angle_difference = angle_difference(_target_angle, angle);
 angle += _angle_difference * turn_rate * get_dt();
 image_angle = angle - 45;
 
-var _dir = point_distance(_target_x, _target_y, position.x, position.y);
+var _dis = point_distance(_target_x, _target_y, position.x, position.y);
 
-if(_dir > orbit_dist){
+if(_dis > orbit_dist){
 	if(abs(_angle_difference) < 15){
 		accelerate(acceleration_rate, angle);
 	}
 }else{
-	accelerate(acceleration_rate, angle - 180);
+	accelerate(acceleration_rate/2, angle - 180);
 }
 
-if(_dir < orbit_dist + 50){
+if(_dis < orbit_dist + 50){
 	shoot_timer -= get_dt();
 	if(shoot_timer <= 0){
 		shoot_timer += 120;
