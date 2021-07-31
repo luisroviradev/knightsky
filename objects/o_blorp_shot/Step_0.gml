@@ -20,7 +20,7 @@ if(shoot_timer > 0){
 		shot = true;
 		var _p = o_controller_master.player;
 		var _dir = point_direction(position.x, position.y, _p.position.x, _p.position.y);
-		impulse(10, _dir);
+		impulse(20, _dir);
 		SoundInstanceAt(snd_blorp_shoot, 1, 70, position.x, position.y);
 	}
 	repeat(get_dt_sum()){

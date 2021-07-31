@@ -1,6 +1,6 @@
 /// @description Enemy collisions
 
-var _damage = ((abs(angle_diff)) + (player.velocity.get_magnitude() * (abs(angle_diff) * .1))) * .1;
+var _damage = ((abs(angle_diff)) + (player.velocity.get_magnitude() * (abs(angle_diff) * .1))) * .15;
 if(current_collider.collision_group & (COLLISION_GROUP.ENEMY | COLLISION_GROUP.ENEMY_PROJECTILE)){
 	if(_damage > 1){
 		if(hit_sound0)
